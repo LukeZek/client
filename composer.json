@@ -1,0 +1,16 @@
+{
+    "name": "luke-bozek/api-client",
+    "autoload": {
+        "psr-4": {
+            "LukeBozek\\ApiClient\\": "src/LukeBozek/"
+        }
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "~1.0",
+        "squizlabs/php_codesniffer": "^3.2"
+    }
+}

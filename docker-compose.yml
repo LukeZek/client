@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  client:
+    build: .
+    ports:
+      - "5000:80"
+    volumes:
+      - .:/var/www/client
